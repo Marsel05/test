@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+body{
+    background: #020202;
+}
+#header{
+    padding: 20px 0;
+    background: rgba(99, 0, 210, 0.24);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header h1 {
+    font-family: 'DM Sans', sans-serif;
+    /*font-style: normal;*/
+    font-weight: 700;
+    font-size: 24px;
+    /*line-height: 31px;*/
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.header-nav a{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header h1{
+    font-family: 'DM Sans', sans-serif;
+    /*font-style: normal;*/
+    font-weight: 700;
+    font-size: 24px;
+    /*line-height: 31px;*/
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.header-nav a{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height */
+    margin: 0 40px;
+
+
+    color: rgba(255, 255, 255, 0.8);
+
+
+}
+.header button{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+padding: 10px 30px;
+    border: none;
+    font-family: 'Noto Sans',sans-serif;
+    /*font-style: normal;*/
+    font-weight: 500;
+    font-size: 14px;
+    /*line-height: 19px;*/
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.block{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 25px;
+
+}
